@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(235, 233, 233);
+    font-family: Tahoma;
+}
+
+h1 {
+    font-weight: 100;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.display-time {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.time {
+    font-size: 36px;
+    margin: 8px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.reset, .start, .stop {
+    margin: 5px 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
